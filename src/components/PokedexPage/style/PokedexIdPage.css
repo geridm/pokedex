@@ -1,0 +1,237 @@
+.pokedexId__container {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 16px 0px #00000026;
+  padding: 50px 20px;
+  margin-top: 100px;
+}
+
+.pokedexId__info {
+  margin: 0 auto;
+  display: flex;
+  row-gap: 20px;
+  max-width: 1200px;
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.600);
+  border-radius: 5px;
+  margin-bottom: 64px;
+  padding-bottom: 80px;
+  flex-direction: column;
+}
+
+.pokedexId__info__background {
+  height: 190px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #f3f3f1b7;
+}
+
+.pokedexId__image {
+  width: 341px;
+  height: 314px;
+  width: 330px;
+  bottom: 0;
+  position: absolute;
+}
+
+.pokedexId__info__header {
+  display: flex;
+  row-gap: 10px;
+  padding: 0 120px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokedexId__info__header,
+.pokedexId__id {
+  padding: 0 10px;
+  font-size: 40px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.pokedexId__info__title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+
+.pokedexId__info__title,
+.pokedexId__name {
+  width: 100%;
+  position: relative;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.pokedexId__line {
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #ebb6b6;
+}
+
+.pokedexId__group {
+  display: flex;
+  column-gap: 20px;
+}
+
+.pokedexId__element {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokedexId__element span {
+  padding: 4px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.pokedexId__body {
+  display: flex;
+  padding: 0 120px;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.pokedexId__body__info p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.pokedexId__type-skills {
+  display: flex;
+  column-gap: 20px;
+}
+
+.pokedexId__item {
+  width: 200px;
+  height: 46px;
+  display: flex;
+  font-size: 25px;
+  box-shadow: var(--Shadow);
+  font-weight: 500;
+  align-items: center;
+  border-radius: 3px;
+  justify-content: center;
+  text-transform: capitalize;
+  border: #e97a20 1px solid;
+}
+
+.pokedexId__stats {
+  width: 100%;
+  padding: 0 120px;
+}
+
+.pokedexId__stats__header {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.pokedexId__stats__header h2 {
+  display: flex;
+  position: relative;
+  font-size: 45px;
+  font-weight: 500;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.pokedexId__line {
+  width: 90%;
+  height: 1px;
+  background-color: #bbb8b346;
+}
+
+.pokedexId__stats__container,
+.pokedexId__element {
+  width: 100%;
+}
+
+.pokedexId__element p {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.pokedexId__element span {
+  font-size: 16px;
+}
+
+.pokedexId__element-barr {
+  width: 100%;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  background-color: #bbb8b346;
+}
+
+.pokedexId__element__barr-color {
+  height: 100%;
+  background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+  position: relative;
+}
+
+/* movements*/
+.pokedexId__movements {
+  margin: 0 auto;
+  padding: 60px;
+  max-width: 1200px;
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.600);
+  border-radius: 5px;
+}
+
+.pokedexId__movements__header {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.pokedexId__movements__header h2 {
+  display: flex;
+  position: relative;
+  font-size: 45px;
+  font-weight: 500;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.pokedexId__movements__line {
+  width: 90%;
+  height: 1px;
+  background-color: #c2c0c098;
+}
+
+.pokedexId__movements__container {
+  gap: 22px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokedexId__movements__container p {
+  padding: 10px 16px;
+  box-shadow: 4px -4px 8px #ffffff,
+    -4px 4px 8px #cccccc;
+  font-weight: 400;
+  border-radius: 20px;
+  background-color: #ddd4d471;
+  text-transform: capitalize;
+}

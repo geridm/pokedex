@@ -1,0 +1,58 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #FFFFFF 7.55%, rgba(255, 255, 255, 0.49) 126.81%);
+    display: grid;
+    justify-content: center;
+}
+
+.home__image {
+    justify-content: center;
+    width: 31.25rem;
+    height: 5.68rem;
+}
+
+.home__greetings {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FE1936;
+}
+
+.home__phrase {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #302F2F;
+}
+
+.formuser {
+    display: inline-flex;
+}
+
+.formuser__input {
+    width: 272px;
+    height: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px 0px #00000026;
+}
+
+.formuser__button {
+    width: 109px;
+    height: 38px;
+    background: #D93F3F;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home__image__foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+}
